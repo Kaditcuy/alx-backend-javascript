@@ -1,4 +1,4 @@
-var calculateNumber = require('./0-calcu1')
+var calculateNumber = require('./0-calcul')
 var assert = require('assert')
 
 describe('calculateNumber', function () {
@@ -8,8 +8,8 @@ describe('calculateNumber', function () {
 	it('should return 5 when adding 1 and 3.7', function () {
 		assert.equal(calculateNumber(1,3.7), 5);
 	});
-	it('should return 5 when adding 1.2 amd 3.7', funxtion () {
-		assert.equal(calaculateNumber(1.2, 3.7), 5);
+	it('should return 5 when adding 1.2 amd 3.7', function () {
+		assert.equal(calculateNumber(1.2, 3.7), 5);
 	});
 	it('should return 6 when adding 1.5 and 3.7', function () {
     		assert.equal(calculateNumber(1.5, 3.7), 6);
